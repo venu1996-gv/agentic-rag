@@ -5,7 +5,7 @@ from qdrant_client import QdrantClient
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+os.getenv()
 
 st.set_page_config(page_title="Agentic RAG", page_icon="🤖")
 st.title("🤖 Agentic RAG — Financial Assistant")
